@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1572567131 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\dao\clsmateriadao.cpp
+	"clsMateriaDAO.h"
+
+1572567154 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\dao\clsmateriadao.h
+	<cstdio>
+	"../DTO/clsMateriaDTO.h"
+
+1572565975 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\dto\clsmateriadto.h
+	<cstring>
+
+1572566618 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\dto\clsmateriadto.cpp
+	"clsMateriaDTO.h"
+
+1572567356 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\negocio\clsmaterianegocio.cpp
+	"clsMateriaNEGOCIO.h"
+
+1572567388 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\negocio\clsmaterianegocio.h
+	"../DAO/clsMateriaDAO.h"
+	"../DTO/clsMateriaDTO.h"
+
+1572560273 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\main.cpp
+	<iostream>
+	"PRESENTACION/clsMainView.h"
+
+1572560525 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmainview.h
+	<iostream>
+	<cstdlib>
+	"clsMateriaView.h"
+
+1572575835 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmateriaview.h
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	"../DTO/clsMateriaDTO.h"
+	"../NEGOCIO/clsMateriaNEGOCIO.h"
+
+1572560545 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmainview.cpp
+	"clsMainView.h"
+
+1572567679 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmateriaview.cpp
+	"clsMateriaView.h"
+
