@@ -14,6 +14,11 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="PRESENTACION" />
+					<Add directory="DTO" />
+					<Add directory="DAO" />
+					<Add directory="NEGOCIO" />
+					<Add directory="VALIDACIONES" />
+					<Add directory="HELPERS" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -24,6 +29,11 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="PRESENTACION" />
+					<Add directory="DTO" />
+					<Add directory="DAO" />
+					<Add directory="NEGOCIO" />
+					<Add directory="VALIDACIONES" />
+					<Add directory="HELPERS" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,6 +44,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="DAO/clsMateriaDAO.cpp" />
+		<Unit filename="DAO/clsMateriaDAO.h" />
+		<Unit filename="DTO/clsMateriaDTO.cpp" />
+		<Unit filename="DTO/clsMateriaDTO.h" />
+		<Unit filename="HELPERS/clsValidaciones.cpp" />
+		<Unit filename="HELPERS/clsValidaciones.h" />
+		<Unit filename="NEGOCIO/clsMateriaNEGOCIO.cpp" />
+		<Unit filename="NEGOCIO/clsMateriaNEGOCIO.h" />
 		<Unit filename="PRESENTACION/clsMainView.cpp" />
 		<Unit filename="PRESENTACION/clsMainView.h" />
 		<Unit filename="PRESENTACION/clsMateriaView.cpp" />

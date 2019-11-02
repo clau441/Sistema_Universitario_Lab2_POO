@@ -5,8 +5,10 @@
 #include <iomanip>
 #include "../DTO/clsMateriaDTO.h"
 #include "../NEGOCIO/clsMateriaNEGOCIO.h"
+#include "../HELPERS/clsValidaciones.h"
 
 using namespace std;
+
 class clsMateriaView
 {
     public:

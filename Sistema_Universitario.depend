@@ -15,7 +15,7 @@
 1572567356 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\negocio\clsmaterianegocio.cpp
 	"clsMateriaNEGOCIO.h"
 
-1572567388 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\negocio\clsmaterianegocio.h
+1572730921 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\negocio\clsmaterianegocio.h
 	"../DAO/clsMateriaDAO.h"
 	"../DTO/clsMateriaDTO.h"
 
@@ -28,16 +28,23 @@
 	<cstdlib>
 	"clsMateriaView.h"
 
-1572575835 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmateriaview.h
+1572734364 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmateriaview.h
 	<iostream>
 	<cstdlib>
 	<iomanip>
 	"../DTO/clsMateriaDTO.h"
 	"../NEGOCIO/clsMateriaNEGOCIO.h"
+	"../HELPERS/clsValidaciones.h"
 
 1572560545 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmainview.cpp
 	"clsMainView.h"
 
-1572567679 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmateriaview.cpp
+1572639582 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\presentacion\clsmateriaview.cpp
 	"clsMateriaView.h"
+
+1572734350 source:y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\helpers\clsvalidaciones.cpp
+	"clsValidaciones.h"
+
+1572734169 y:\documents\utn\tecnicatura_en_programacion\laboratorio_ii\tp2\sistema_universitario\helpers\clsvalidaciones.h
+	<iostream>
 

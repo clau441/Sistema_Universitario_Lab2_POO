@@ -11,10 +11,10 @@ void clsMateriaView::Menu()
         cout<<"\n\n\n\n\n\n\n\n\n\t\t\t\t ================================================="<<endl;
         cout<<"\t\t\t\t||                MENU MATERIAS                 ||"<<endl;
         cout<<"\t\t\t\t ================================================="<<endl;
-        cout<<"\t\t\t\t||     N- Alta de Materia                               ||"<<endl;
-        cout<<"\t\t\t\t||     N- Baja de Materia                               ||"<<endl;
-        cout<<"\t\t\t\t||     N- Modificacion de Materia                              ||"<<endl;
-        cout<<"\t\t\t\t||     N- Listado de Materias               ||"<<endl;
+        cout<<"\t\t\t\t||     A- Alta de Materia                               ||"<<endl;
+        cout<<"\t\t\t\t||     B- Baja de Materia                               ||"<<endl;
+        cout<<"\t\t\t\t||     C- Modificacion de Materia                              ||"<<endl;
+        cout<<"\t\t\t\t||     D- Listado de Materias               ||"<<endl;
         cout<<"\t\t\t\t||     S- Salir                                  ||"<<endl;
         cout<<"\t\t\t\t ================================================="<<endl;
         cout<<"\t\t\t\t Ingrese una opcion: ";
@@ -22,11 +22,17 @@ void clsMateriaView::Menu()
         cin.ignore();
         switch(op)
         {
-        case 'N':
-        case 'n':
+        case 'A':
+        case 'a':
             {
 
             }break;
+        case 'B':
+        case 'b':
+            {
+
+            }
+            break;
         case 's':
         case 'S':
             {
@@ -47,13 +53,15 @@ void clsMateriaView::Insertar()
     char profesor[50];
     clsMateriaDTO dto;
     clsMateriaNegocio bl;
+    clsValidaciones val;
 
     system("cls");
     cout<<"----------------NUEVA MATERIA-------------"<<endl;
-    cout<<"Ingrese un nombre: ";
-    cin.getline(nombre, 50);
-    cout<<endl;
-    cout<<"Ingrese un profesor: ";
+    val.ValidarRequerido("Ingrese el Nombre de la MATERIA a dar de alta: ",nombre,50);
+
+
+
+    cout<<"Ingrese el Profesor a cargo de la MATERIA: ";
     cin.getline(profesor, 50);
     ///VALIDACION QUE NO PUEDE INGRESAR NUMERO EN UN NOMBRE NI ESPACIOS VACIOS
     dto.SetNombre(nombre);
