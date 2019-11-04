@@ -48,6 +48,8 @@
 		<Unit filename="DAO/clsMateriaDAO.h" />
 		<Unit filename="DTO/clsMateriaDTO.cpp" />
 		<Unit filename="DTO/clsMateriaDTO.h" />
+		<Unit filename="HELPERS/clsCadenas.cpp" />
+		<Unit filename="HELPERS/clsCadenas.h" />
 		<Unit filename="HELPERS/clsValidaciones.cpp" />
 		<Unit filename="HELPERS/clsValidaciones.h" />
 		<Unit filename="NEGOCIO/clsMateriaNEGOCIO.cpp" />
