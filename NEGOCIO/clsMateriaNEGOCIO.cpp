@@ -32,3 +32,32 @@ int clsMateriaNegocio::Count()
     clsMateriaDAO dao;
     return dao.Count();
 }
+
+void clsMateriaNegocio::BuscarSub(clsMateriaDTO *lista, char *cond)
+{
+    clsMateriaDAO dao;
+    dao.BuscarSub(lista, cond);
+}
+
+int clsMateriaNegocio::BuscarSubCount(char *cond)
+{
+    clsMateriaDAO dao;
+    return dao.BuscarSubCount(cond);
+}
+
+int clsMateriaNegocio::BuscarID(int id)
+{
+    clsMateriaDAO dao;
+    return dao.BuscarID(id);
+}
+
+void clsMateriaNegocio::ModificarMateria(int Id, char *materia)
+{
+    clsMateriaDAO dao;
+    dao.ModificarMateria(Id, materia);
+}
+
+void clsMateriaNegocio::ModificarProfresor(int Id, char *profesor){
+    clsMateriaDAO dao;
+    dao.ModificarProfesor(Id, profesor);
+}
